@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include<conio.h>
 int main()
 {
     char c;
@@ -10,6 +9,7 @@ int main()
         printf("%c is an alphabet",c);
     else
         printf("%c is not an alphabet",c);
+    getch();
 
     return 0;
 }
